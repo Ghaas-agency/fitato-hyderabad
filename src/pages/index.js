@@ -152,12 +152,12 @@ class OffersPage extends React.Component {
                   <div className="offers-page-advantages__item">
                     <img src={withPrefix('/static/Whenever.svg')} alt="whenever"/>
                     <h3>Workout Whenever You Want</h3>
-                    <p>It’s a late day at work. You finally make it to the gym, but it’s closed. Now, what? With a Fitato Pass, we’ve always got options for you regardless of the time.</p>
+                    <p>Missed your favourite Yoga class? Overslept? Sudden meetings? Overextended client calls? Don't worry we've got your back. With Fitato you'll always have options regardless of the time!</p>
                   </div>
                   <div className="offers-page-advantages__item">
                     <img src={withPrefix('/static/way-you-want.svg')} alt="way-you-want"/>
                     <h3>Workout The Way You Want</h3>
-                    <p>Missed your favourite Yoga class? Overslept? Sudden meetings? Overextended client calls? Don't worry we've got your back. With Fitato you'll always have options regardless of the time!</p>
+                    <p>Spice Up Your Fitness Routine! Pump iron today at the gym, do Zumba tomorrow and get some well-deserved R&R over the weekend with yoga or a swimming class.</p>
                   </div>
                 </div>
                 <div className="offers-page-advantages__join">

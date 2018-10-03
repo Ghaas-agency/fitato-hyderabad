@@ -1,6 +1,7 @@
-/node_modules/
-/.cache/
-/.firebase/
-/build/
-/public/
+node_modules
+.cache
+.firebase
+build
+public/*
+!/public/static
 .prettierrc
