@@ -177,13 +177,13 @@ class OffersPage extends React.Component {
                   <div className="offer-page-intro__left">
                     <p className="offer-title-highlight">Hyderabad Pre-Launch Special Offer</p>
                     <h2>First 100 Subscribers Get Flat 50% Off</h2>
-                    <p>Only {this.state.passesLeft} Early Bird Passes Left</p>
+                    <p>Only 0 Early Bird Passes Left</p>
                     <small><em>(Offer valid for Hyderabad citizens only.)</em></small>
                   </div>
 
                   <div className="offer-page-intro__right">
                     <div className="offers-page-plans__items">
-                      <div className="offers-page-plans__item">
+                      <div className="offers-page-plans__item offer-closed">
                         <div className="offers-page-plans__item--title">
                           <h3>Fitato Monthly</h3>
                         </div>
@@ -191,11 +191,50 @@ class OffersPage extends React.Component {
                           <p>Purchase the Fitato Monthly pass and get unlimited access to every Fitato partner facility.</p>
                           <p><strike>&#8377;2,199</strike></p>
                           <p className="offers-page-plans__item--price">&#8377;1,099</p>
-                          <a href="https://imjo.in/ycPbch" target="_blank" rel="noopener noreferrer" className="button button-fluid">Pre-book Now</a>
+                          <span className="button button-fluid button-greyed">Pre-book Now</span>
                         </div>
                       </div>
-                    </div>  
-                  </div>    
+                    </div>
+                  </div>
+                </div>
+
+                <div className="offer-page-last-chance">
+                  <h3>Missed the offer? Here's your last chance</h3>
+                  <div className="offers-page-plans__items">
+                    <div className="offers-page-plans__item">
+                      <div className="offers-page-plans__item--title">
+                        <h3>Fitato Quaterly</h3>
+                      </div>
+                      <div className="offers-page-plans__item--body">
+                        <p>Purchase the Fitato Monthly pass and get unlimited access to every Fitato partner facility.</p>
+                        <p><strike>&#8377;2,199</strike></p>
+                        <p className="offers-page-plans__item--price">&#8377;1,099</p>
+                        <span className="button button-fluid">Pre-book Now</span>
+                      </div>
+                    </div>
+                    <div className="offers-page-plans__item">
+                      <div className="offers-page-plans__item--title">
+                        <h3>Fitato Bi-Monthly</h3>
+                      </div>
+                      <div className="offers-page-plans__item--body">
+                        <p>Purchase the Fitato Monthly pass and get unlimited access to every Fitato partner facility.</p>
+                        <p><strike>&#8377;2,199</strike></p>
+                        <p className="offers-page-plans__item--price">&#8377;1,099</p>
+                        <span className="button button-fluid">Pre-book Now</span>
+                      </div>
+                    </div>
+                    <div className="offers-page-plans__item">
+                      <div className="offers-page-plans__item--title">
+                        <h3>Fitato Monthly</h3>
+                      </div>
+                      <div className="offers-page-plans__item--body">
+                        <p>Purchase the Fitato Monthly pass and get unlimited access to every Fitato partner facility.</p>
+                        <p><strike>&#8377;2,199</strike></p>
+                        <p className="offers-page-plans__item--price">&#8377;1,099</p>
+                        <span className="button button-fluid">Pre-book Now</span>
+                      </div>
+                    </div>
+                  </div>
                 </div>
 
                 <div className="offers-page-facilities">
