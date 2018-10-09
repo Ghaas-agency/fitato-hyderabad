@@ -217,7 +217,7 @@ class OffersPage extends React.Component {
                         <a href="https://imjo.in/RXuDNp" target="_blank" rel="noreferrer noopener">
                           <span className="button button-fluid">Pre-book Now</span>
                         </a>
-                        {/* <p style={{marginTop: '20px'}}>{Math.floor(this.state.passesLeft + (Math.random() * 7))} passes left</p> */}
+                        <p style={{marginTop: '20px'}}>{this.state.passesLeft + 1} passes left</p>
                       </div>
                     </div>
                     <div className="offers-page-plans__item">
@@ -232,7 +232,7 @@ class OffersPage extends React.Component {
                         <a href="https://imjo.in/qN4Z2K" target="_blank" rel="noreferrer noopener">
                           <span className="button button-fluid">Pre-book Now</span>
                         </a>
-                        {/* <p style={{marginTop: '20px'}}>{Math.floor(this.state.passesLeft + (Math.random() * 13))} passes left</p> */}
+                        <p style={{marginTop: '20px'}}>{this.state.passesLeft + 5} passes left</p>
                       </div>
                     </div>
                     <div className="offers-page-plans__item">
@@ -247,7 +247,7 @@ class OffersPage extends React.Component {
                         <a href="https://imjo.in/ekB8Fn" target="_blank" rel="noreferrer noopener">
                           <span className="button button-fluid">Pre-book Now</span>
                         </a>
-                        {/* <p style={{marginTop: '20px'}}>{Math.floor(this.state.passesLeft + (Math.random() * 20)) - 10} passes left</p> */}
+                        <p style={{marginTop: '20px'}}>{this.state.passesLeft - 5} passes left</p>
                       </div>
                     </div>
                   </div>
