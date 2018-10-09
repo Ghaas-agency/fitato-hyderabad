@@ -257,7 +257,7 @@ p, small {
   -ms-flex: 1;
   flex: 1;
   min-width: 300px;
-  max-width: 350px;
+  max-width: 320px;
   border-radius: 10px;
   border: 1px solid #dddddd;
   margin: 0 -0.5px;
@@ -782,7 +782,7 @@ p, small {
   top: -25px;
   left: -2px;
   padding-top: 2px;
-  content: 'Offer Ended';
+  content: 'Sold Out';
   background-color: #EB1F2E;
   color: #ffffff;
   border-top-left-radius: 5px;
@@ -798,5 +798,5 @@ p, small {
 }
 
 .offer-page-last-chance h3:first {
-  margin-bottom: 25px;
+  margin-bottom: 30px;
 }
