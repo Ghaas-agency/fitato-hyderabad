@@ -217,7 +217,9 @@ class OffersPage extends React.Component {
                         <a href="https://imjo.in/RXuDNp" target="_blank" rel="noreferrer noopener">
                           <span className="button button-fluid">Pre-book Now</span>
                         </a>
-                        <p style={{marginTop: '20px'}}>{this.state.passesLeft + 1} passes left</p>
+                        <p style={{marginTop: '20px'}}>{
+                          (this.state.passesLeft <= 1) ? 2 : this.state.passesLeft
+                        } passes left</p>
                       </div>
                     </div>
                     <div className="offers-page-plans__item">
@@ -232,7 +234,9 @@ class OffersPage extends React.Component {
                         <a href="https://imjo.in/qN4Z2K" target="_blank" rel="noreferrer noopener">
                           <span className="button button-fluid">Pre-book Now</span>
                         </a>
-                        <p style={{marginTop: '20px'}}>{this.state.passesLeft + 5} passes left</p>
+                        <p style={{marginTop: '20px'}}>{
+                          (this.state.passesLeft + 3 <= 1) ? 2 : this.state.passesLeft + 3
+                        } passes left</p>
                       </div>
                     </div>
                     <div className="offers-page-plans__item">
@@ -247,7 +251,9 @@ class OffersPage extends React.Component {
                         <a href="https://imjo.in/ekB8Fn" target="_blank" rel="noreferrer noopener">
                           <span className="button button-fluid">Pre-book Now</span>
                         </a>
-                        <p style={{marginTop: '20px'}}>{this.state.passesLeft - 5} passes left</p>
+                        <p style={{marginTop: '20px'}}>{
+                          (this.state.passesLeft - 5 <= 1) ? 2 : this.state.passesLeft - 5
+                        } passes left</p>
                       </div>
                     </div>
                   </div>
