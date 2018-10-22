@@ -74,10 +74,8 @@ class OffersPage extends React.Component {
       <Layout>
         <div className="offers-page">
           <Helmet
-            title="Calling All Fitness Lovers In Hyderabad For Our Pre-Launch Special Offer"
-          >
-            <meta name="description" content="The fitness revolution you've been waiting for is here now!" />
-          </Helmet>
+            title="Fitato: Your Fitness Freedom Now In Hyderabad"
+          />
 
             <div className="header-wrapper"></div>
             
@@ -172,7 +170,7 @@ class OffersPage extends React.Component {
             <div id="exclusive-offer" className="offers-page-intro" style={{backgroundImage: 'url(' + withPrefix('/static/fitness-bg.png') + ')' }}>
               <div className="container">
                 
-                <div className="offer-page-intro__wrapper">
+                {/* <div className="offer-page-intro__wrapper">
 
                   <div className="offer-page-intro__left">
                     <p className="offer-title-highlight">Hyderabad Pre-Launch Special Offer</p>
@@ -196,10 +194,11 @@ class OffersPage extends React.Component {
                       </div>
                     </div>
                   </div>
-                </div>
+                </div> */}
 
                 <div className="offer-page-last-chance">
-                  <h3>Missed the Early Bird offer? Here's your last chance</h3>
+                  <h2>Hyderabad Launch Special Offer</h2>
+                  <h3 style={{marginBottom: '40px', color: 'rgba(0,0,0,0.7)'}}>30% Off + 30% Cashback on All Fitato Passes</h3>
                   <p><span className="offer-highlight">Use Coupon Code: <strong>HYDFIT</strong></span></p>
                   <p style={{fontSize: '1.2em', lineHeight: '2em', paddingTop: '0px'}}>on your Fitato App<br /></p>
                   <p style={{fontSize: '1.3em', fontWeight: 'bold'}}>OR</p>
@@ -213,7 +212,7 @@ class OffersPage extends React.Component {
                         <p>Purchase the Fitato Quaterly pass and get unlimited access to every Fitato partner facility for three months.</p>
                         <p><strike>&#8377;5,499</strike></p>
                         <p className="offers-page-plans__item--price">&#8377;3,849</p>
-                        <small style={{paddingBottom: '15px', display: 'block'}}>Get Cashback: &#8377;1,650</small>
+                        <small style={{paddingBottom: '15px', display: 'block'}}>Get Cashback: &#8377;1,154</small>
                         <a href="https://imjo.in/RXuDNp" target="_blank" rel="noreferrer noopener">
                           <span className="button button-fluid">Pre-book Now</span>
                         </a>
@@ -230,7 +229,7 @@ class OffersPage extends React.Component {
                         <p>Purchase the Fitato Bi-Monthly pass and get unlimited access to every Fitato partner facility for two months.</p>
                         <p><strike>&#8377;3,899</strike></p>
                         <p className="offers-page-plans__item--price">&#8377;2,729</p>
-                        <small style={{paddingBottom: '15px', display: 'block'}}>Get Cashback: &#8377;1,170</small>
+                        <small style={{paddingBottom: '15px', display: 'block'}}>Get Cashback: &#8377;818</small>
                         <a href="https://imjo.in/qN4Z2K" target="_blank" rel="noreferrer noopener">
                           <span className="button button-fluid">Pre-book Now</span>
                         </a>
@@ -247,7 +246,7 @@ class OffersPage extends React.Component {
                         <p>Purchase the Fitato Monthly pass and get unlimited access to every Fitato partner facility for one month.</p>
                         <p><strike>&#8377;2,199</strike></p>
                         <p className="offers-page-plans__item--price">&#8377;1,539</p>
-                        <small style={{paddingBottom: '15px', display: 'block'}}>Get Cashback: &#8377;660</small>
+                        <small style={{paddingBottom: '15px', display: 'block'}}>Get Cashback: &#8377;461</small>
                         <a href="https://imjo.in/ekB8Fn" target="_blank" rel="noreferrer noopener">
                           <span className="button button-fluid">Pre-book Now</span>
                         </a>
