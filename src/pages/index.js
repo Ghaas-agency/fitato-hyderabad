@@ -155,7 +155,7 @@ class OffersPage extends React.Component {
                   <div className="offers-page-advantages__item">
                     <img src={withPrefix('/static/way-you-want.svg')} alt="way-you-want"/>
                     <h3>Workout The Way You Want</h3>
-                    <p>Spice Up Your Fitness Routine! Pump iron today at the gym, do Zumba tomorrow and get some well-deserved R&R over the weekend with yoga or a swimming class.</p>
+                    <p>Spice Up Your Fitness Routine! Pump iron today at the gym, do Zumba tomorrow and get some well-deserved relaxation over the weekend with yoga or a swimming class.</p>
                   </div>
                 </div>
                 <div className="offers-page-advantages__join">
