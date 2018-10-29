@@ -15,12 +15,12 @@ const displayNone = {
 
 class OffersPage extends React.Component {
   state = {
-    modalToggle: false,
-    passesLeft: '95',
+    /* modalToggle: false,
+    passesLeft: '95', */
     showFloatingButton: false
   }
 
-  handleClick = e => {
+  /* handleClick = e => {
     if(e.target.className === 'workplace-modalbg' || e.target.className === 'modal-close') {
       this.setState({
         modalToggle: false
@@ -30,7 +30,7 @@ class OffersPage extends React.Component {
         modalToggle: true
       });
     }
-  }
+  } */
 
   handleScroll = () => {
     let y = 0;
@@ -47,7 +47,7 @@ class OffersPage extends React.Component {
       window.addEventListener('scroll', this.handleScroll);
     }
 
-    const oneHour = 60*60*1000;
+    /* const oneHour = 60*60*1000;
     const current = new Date();
     const ends = new Date(2018, 9, 18);
     
@@ -60,7 +60,7 @@ class OffersPage extends React.Component {
       this.setState({passesLeft: '11'});
     } else {
       this.setState({passesLeft: Math.round(passesLeftCalc)});
-    }
+    } */
   }
 
   componentWillUnmount() {
@@ -84,7 +84,7 @@ class OffersPage extends React.Component {
                 <div className="offers-page-hero__wrapper">
                   <h1>NAMASKARAM HYDERABAD!</h1>
                   <p>The Most Flexible, All-Access Fitness Membership is in Hyderabad!</p>
-                  <a href="#exclusive-offer" className="button-inverted" style={{marginLeft: '0', marginTop: '20px'}}>Pre-book Now</a>
+                  <a href="#exclusive-offer" className="button-inverted" style={{marginLeft: '0', marginTop: '20px'}}>Buy Now</a>
                 </div>
               </div>
             </div>
@@ -167,7 +167,7 @@ class OffersPage extends React.Component {
               </div>
             </div>
     
-            <div id="exclusive-offer" className="offers-page-intro" style={{backgroundImage: 'url(' + withPrefix('/static/fitness-bg.png') + ')' }}>
+            <div id="buy-now" className="offers-page-intro" style={{backgroundImage: 'url(' + withPrefix('/static/fitness-bg.png') + ')' }}>
               <div className="container">
                 
                 {/* <div className="offer-page-intro__wrapper">
@@ -197,12 +197,7 @@ class OffersPage extends React.Component {
                 </div> */}
 
                 <div className="offer-page-last-chance">
-                  <h2>Hyderabad Launch Special Offer</h2>
-                  <h3 style={{marginBottom: '40px', color: 'rgba(0,0,0,0.7)'}}>30% Off + 30% Cashback on All Fitato Passes</h3>
-                  <p><span className="offer-highlight">Use Coupon Code: <strong>HYDFIT</strong></span></p>
-                  <p style={{fontSize: '1.2em', lineHeight: '2em', paddingTop: '0px'}}>on your Fitato App<br /></p>
-                  <p style={{fontSize: '1.3em', fontWeight: 'bold'}}>OR</p>
-                  <p style={{fontSize: '1.3em', fontWeight: 'bold', marginBottom: '0.5em'}}>Buy Online Here:</p>
+                  <h2>Choose Your Membership Plan</h2>
                   <div className="offers-page-plans__items">
                     <div className="offers-page-plans__item">
                       <div className="offers-page-plans__item--title">
@@ -210,15 +205,13 @@ class OffersPage extends React.Component {
                       </div>
                       <div className="offers-page-plans__item--body">
                         <p>Purchase the Fitato Quaterly pass and get unlimited access to every Fitato partner facility for three months.</p>
-                        <p><strike>&#8377;5,499</strike></p>
-                        <p className="offers-page-plans__item--price">&#8377;3,849</p>
-                        <small style={{paddingBottom: '15px', display: 'block'}}>Get Cashback: &#8377;1,154</small>
+                        <p className="offers-page-plans__item--price">&#8377;5,499</p>
                         <a href="https://imjo.in/RXuDNp" target="_blank" rel="noreferrer noopener">
-                          <span className="button button-fluid">Pre-book Now</span>
+                          <span className="button button-fluid">Buy Now</span>
                         </a>
-                        <p style={{marginTop: '20px'}}>{
+                        {/* <p style={{marginTop: '20px'}}>{
                           (this.state.passesLeft <= 1) ? 2 : this.state.passesLeft
-                        } passes left</p>
+                        } passes left</p> */}
                       </div>
                     </div>
                     <div className="offers-page-plans__item">
@@ -227,15 +220,13 @@ class OffersPage extends React.Component {
                       </div>
                       <div className="offers-page-plans__item--body">
                         <p>Purchase the Fitato Bi-Monthly pass and get unlimited access to every Fitato partner facility for two months.</p>
-                        <p><strike>&#8377;3,899</strike></p>
-                        <p className="offers-page-plans__item--price">&#8377;2,729</p>
-                        <small style={{paddingBottom: '15px', display: 'block'}}>Get Cashback: &#8377;818</small>
+                        <p className="offers-page-plans__item--price">&#8377;3,899</p>
                         <a href="https://imjo.in/qN4Z2K" target="_blank" rel="noreferrer noopener">
-                          <span className="button button-fluid">Pre-book Now</span>
+                          <span className="button button-fluid">Buy Now</span>
                         </a>
-                        <p style={{marginTop: '20px'}}>{
+                        {/* <p style={{marginTop: '20px'}}>{
                           (this.state.passesLeft + 3 <= 1) ? 2 : this.state.passesLeft + 3
-                        } passes left</p>
+                        } passes left</p> */}
                       </div>
                     </div>
                     <div className="offers-page-plans__item">
@@ -244,15 +235,13 @@ class OffersPage extends React.Component {
                       </div>
                       <div className="offers-page-plans__item--body">
                         <p>Purchase the Fitato Monthly pass and get unlimited access to every Fitato partner facility for one month.</p>
-                        <p><strike>&#8377;2,199</strike></p>
-                        <p className="offers-page-plans__item--price">&#8377;1,539</p>
-                        <small style={{paddingBottom: '15px', display: 'block'}}>Get Cashback: &#8377;461</small>
+                        <p className="offers-page-plans__item--price">&#8377;2,199</p>
                         <a href="https://imjo.in/ekB8Fn" target="_blank" rel="noreferrer noopener">
-                          <span className="button button-fluid">Pre-book Now</span>
+                          <span className="button button-fluid">Buy Now</span>
                         </a>
-                        <p style={{marginTop: '20px'}}>{
+                        {/* <p style={{marginTop: '20px'}}>{
                           (this.state.passesLeft - 5 <= 1) ? 2 : this.state.passesLeft - 5
-                        } passes left</p>
+                        } passes left</p> */}
                       </div>
                     </div>
                   </div>
@@ -288,10 +277,10 @@ class OffersPage extends React.Component {
               </div>
             </div>
     
-            <a href="#exclusive-offer" 
+            <a href="#buy-now" 
               className="button pre-book-float-btn"
               style={(this.state.showFloatingButton) ? displayBlock : displayNone}  
-            >Pre-book your pass now</a>
+            >Buy your pass now</a>
 
             {/* <div className="offers-page-share">
               <div className="container">
