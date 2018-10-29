@@ -84,7 +84,7 @@ class OffersPage extends React.Component {
                 <div className="offers-page-hero__wrapper">
                   <h1>NAMASKARAM HYDERABAD!</h1>
                   <p>The Most Flexible, All-Access Fitness Membership is in Hyderabad!</p>
-                  <a href="#exclusive-offer" className="button-inverted" style={{marginLeft: '0', marginTop: '20px'}}>Buy Now</a>
+                  <a href="#buy-now" className="button-inverted" style={{marginLeft: '0', marginTop: '20px'}}>Buy Now</a>
                 </div>
               </div>
             </div>

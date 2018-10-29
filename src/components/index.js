@@ -74,7 +74,7 @@ export default ({ children }) => (
           dangerouslySetInnerHTML={{
             __html: `
             var scroll = new SmoothScroll('a[href*="#"]', {
-              offset: 30,
+              offset: 0,
               easing: 'easeInOutCubic',
             });
             `,
