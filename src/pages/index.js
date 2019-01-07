@@ -312,7 +312,6 @@ class OffersPage extends React.Component {
             </div>
           </div>
         </div> */}
-
       </Layout>
     )
   }

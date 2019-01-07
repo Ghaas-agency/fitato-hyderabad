@@ -1216,3 +1216,82 @@ input[type="submit"]:focus {
 .mc-field-group {
   text-align: left;
 }
+
+/* Partial Topbar */
+
+.partial-topbar {
+  background-color: #EB1F2E;
+  color: #ffffff;
+  text-align: center;
+  padding: 3px 0;
+}
+
+.partial-topbar p {
+  margin-bottom: 0;
+}
+
+.partial-topbar a {
+  color: #ffffff;
+  border-bottom: 1px solid #ffffff;
+}
+
+.partial-topbar img {
+  width: 50px;
+  margin-right: 15px;
+  vertical-align: middle;
+  margin-bottom: 8px;
+}
+
+.partial-topbar-close {
+  float: right;
+  margin-top: 12px;
+  padding: 3px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  border: 2px solid #eeeeee;
+  width: 30px;
+  height: 30px;
+  font-size: 0.7em;
+  cursor: pointer;
+  text-align: center;
+  -webkit-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  opacity: 0.75;
+}
+
+.partial-topbar-close:hover {
+  opacity: 1;
+}
+
+img.partial-topbar--arrow {
+  width: 20px;
+  vertical-align: text-top;
+  margin: 0 !important;
+  float: unset !important;
+}
+
+@media (max-width: 480px) {
+  .partial-topbar {
+    text-align: left;
+    padding: 10px 0 15px 0;
+  }
+
+  .partial-topbar p {
+    margin-bottom: 0;
+    margin-right: 25px;
+    margin-left: 15px;
+  }
+
+  .partial-topbar img {
+    float: left;
+    margin: 0px 15px;
+    margin-left: 0;
+  }
+  
+  .partial-topbar-close img {
+    margin: 0
+  }
+}
