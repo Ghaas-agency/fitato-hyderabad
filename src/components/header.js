@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import { withPrefix } from 'gatsby'
 import AppIcons from '../partials/AppIcons'
 import '../css/header.css'
-import Topbar from '../partials/Topbar'
+/* import Topbar from '../partials/Topbar' */
 
 const displayBlock = {
   display: 'block'
@@ -82,7 +82,7 @@ class Header extends Component {
   render() {
     return (
       <div className="main-header">
-        <Topbar />
+        {/* <Topbar /> */}
         <div className="main-header-container">
           <span onClick={this.handleMenuClick} className="main-header-menu-icon">Download now</span>
           <a className="menu-logo" href="https://www.fitato.fit/" target="_blank" rel="noopener noreferrer">

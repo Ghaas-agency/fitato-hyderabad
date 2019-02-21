@@ -296,8 +296,8 @@ p, small {
 .offers-page-facilities {
   text-align: center;
   padding-top: 70px;
-  padding-left: 10%;
-  padding-right: 10%;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 .offers-page-facilities h3 {
@@ -308,28 +308,33 @@ p, small {
   font-size: 1.3em;
 }
 
-.offers-pafe-facilities__items {
+.offers-page-facilities__items {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: baseline
 }
 
-.offers-pafe-facilities__item {
+.offers-page-facilities__item {
   flex: 1;
   min-width: 120px;
   padding: 10px;
 }
 
-.offers-pafe-facilities__item img {
+.offers-page-facilities__item img {
   filter: grayscale(100%);
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
   margin-bottom: 10px;
 }
 
-.offers-pafe-facilities__item img:hover {
+.offers-page-facilities__item img:hover {
   filter: grayscale(0%);
+}
+
+.offers-page-facilities__item p {
+  font-size: 17px;
+  line-height: 1.4;
 }
 
 .offers-page-one-pass {

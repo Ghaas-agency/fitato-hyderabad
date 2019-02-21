@@ -249,24 +249,32 @@ class OffersPage extends React.Component {
 
                 <div className="offers-page-facilities">
                   <h3>Our Featured Partner Facilities</h3>
-                  <div className="offers-pafe-facilities__items">
-                    <div className="offers-pafe-facilities__item">
-                      <img src={withPrefix('/static/facilities/dtp.jpg')} width="50" alt="DTP the gym"/>
-                      <p>DTP The Gym</p>
+                  <div className="offers-page-facilities__items">
+                    <div className="offers-page-facilities__item">
+                      <img src={withPrefix('/static/facilities/golds-gym.jpg')} width="57" alt="DTP the gym"/>
+                      <p>Gold&apos;s Gym</p>
                     </div>
-                    <div className="offers-pafe-facilities__item">
+                    <div className="offers-page-facilities__item">
+                      <img src={withPrefix('/static/facilities/chisel.png')} width="100" alt="Chisel Fitness"/>
+                      <p>Chisel Fitness</p>
+                    </div>
+                    <div className="offers-page-facilities__item">
+                      <img src={withPrefix('/static/facilities/f45.gif')} width="75" alt="F45 training"/>
+                      <p>F45 Training</p>
+                    </div>
+                    <div className="offers-page-facilities__item">
                       <img src={withPrefix('/static/facilities/fitness-freak-studio.png')} width="120" alt="fitness freak studio"/>
                       <p>Fitness Freak Studio</p>
                     </div>
-                    <div className="offers-pafe-facilities__item">
+                    <div className="offers-page-facilities__item">
                       <img src={withPrefix('/static/facilities/house-of-champions.png')} width="50" alt="house of champions"/>
                       <p>House of Champions</p>
                     </div>
-                    <div className="offers-pafe-facilities__item">
+                    <div className="offers-page-facilities__item">
                       <img src={withPrefix('/static/facilities/360-fitness.png')} width="70" alt="360 fitness"/>
                       <p>360° Fitness</p>
                     </div>
-                    <div className="offers-pafe-facilities__item">
+                    <div className="offers-page-facilities__item">
                       <img src={withPrefix('/static/facilities/hy-dance-studios.png')} width="50" alt="hy dance studios"/>
                       <p>HY Dance Studios</p>
                     </div>
