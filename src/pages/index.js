@@ -205,8 +205,8 @@ class OffersPage extends React.Component {
                       </div>
                       <div className="offers-page-plans__item--body">
                         <p>Purchase the Fitato Quaterly pass and get unlimited access to every Fitato partner facility for three months.</p>
-                        <p className="offers-page-plans__item--price">&#8377;5,499</p>
-                        <a href="https://imjo.in/RXuDNp" target="_blank" rel="noreferrer noopener">
+                        <p className="offers-page-plans__item--price">&#8377;6,599</p>
+                        <a href="https://imjo.in/UAt7PD" target="_blank" rel="noreferrer noopener">
                           <span className="button button-fluid">Buy Now</span>
                         </a>
                         {/* <p style={{marginTop: '20px'}}>{
@@ -220,8 +220,8 @@ class OffersPage extends React.Component {
                       </div>
                       <div className="offers-page-plans__item--body">
                         <p>Purchase the Fitato Bi-Monthly pass and get unlimited access to every Fitato partner facility for two months.</p>
-                        <p className="offers-page-plans__item--price">&#8377;3,899</p>
-                        <a href="https://imjo.in/qN4Z2K" target="_blank" rel="noreferrer noopener">
+                        <p className="offers-page-plans__item--price">&#8377;4,599</p>
+                        <a href="https://imjo.in/6hbX9E" target="_blank" rel="noreferrer noopener">
                           <span className="button button-fluid">Buy Now</span>
                         </a>
                         {/* <p style={{marginTop: '20px'}}>{
@@ -235,8 +235,8 @@ class OffersPage extends React.Component {
                       </div>
                       <div className="offers-page-plans__item--body">
                         <p>Purchase the Fitato Monthly pass and get unlimited access to every Fitato partner facility for one month.</p>
-                        <p className="offers-page-plans__item--price">&#8377;2,199</p>
-                        <a href="https://imjo.in/ekB8Fn" target="_blank" rel="noreferrer noopener">
+                        <p className="offers-page-plans__item--price">&#8377;2,499</p>
+                        <a href="https://imjo.in/wjZhss" target="_blank" rel="noreferrer noopener">
                           <span className="button button-fluid">Buy Now</span>
                         </a>
                         {/* <p style={{marginTop: '20px'}}>{
