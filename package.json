@@ -3,15 +3,14 @@
   "version": "1.0.0",
   "author": "Akshay Dhiman",
   "dependencies": {
-    "gatsby": "^2.2.8",
-    "gatsby-plugin-nprogress": "^2.0.10",
-    "gatsby-plugin-react-helmet": "^3.0.10",
-    "gatsby-source-filesystem": "^2.0.28",
-    "react": "^16.8.5",
-    "react-dom": "^16.8.5",
-    "react-helmet": "^5.2.0",
-    "react-sanfona": "^1.4.0",
-    "url-loader": "^1.1.2"
+    "gatsby": "^2.17.11",
+    "gatsby-plugin-nprogress": "^2.1.13",
+    "gatsby-plugin-react-helmet": "^3.1.14",
+    "gatsby-source-filesystem": "^2.1.36",
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0",
+    "react-helmet": "^5.2.1",
+    "url-loader": "^2.2.0"
   },
   "keywords": [
     "gatsby"
@@ -24,6 +23,6 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
-    "prettier": "^1.16.4"
+    "prettier": "^1.19.1"
   }
 }
